@@ -3,7 +3,7 @@ FROM tomcat:latest
 
 LABEL author="satya"
 
-COPY target/* /usr/local/tomcat/webapps
+COPY target/* /usr/local/tomcat/webapps/
 
 EXPOSE 8090
 
